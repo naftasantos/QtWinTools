@@ -5,6 +5,7 @@
 #include <windows.h>
 
 #include "wal/api/advapi32.h"
+#include "wal/api/kernel32.h"
 
 namespace WAL {
   namespace Registry {
@@ -15,6 +16,7 @@ namespace WAL {
       virtual ~RegKey();
     private:
       API::Advapi32 advapi32_;
+      API::Kernel32 kernel32_;
       HKEY key_;
     };
   }

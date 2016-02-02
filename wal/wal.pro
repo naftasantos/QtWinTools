@@ -23,11 +23,13 @@ SOURCES += \
     translations/win2qt.cpp \
     translations/qt2win.cpp \
     registry/reg_key.cpp \
-    api/advapi32.cpp
+    api/advapi32.cpp \
+    api/kernel32.cpp
 
 HEADERS += \
     translations/win2qt.h \
     translations/qt2win.h \
     registry/reg_key.h \
     api/advapi32.h \
-    api/iapi.h
+    api/iapi.h \
+    api/kernel32.h
